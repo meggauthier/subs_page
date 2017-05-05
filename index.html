@@ -26,6 +26,9 @@
     <link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
     <link rel='dns-prefetch' href='//fast.fonts.net' />
     <link rel='dns-prefetch' href='//s.w.org' />
+        
+        <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
 		<script type="text/javascript">
 			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/digitalriver.staging.wpengine.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.3"}};
 			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
@@ -70,6 +73,7 @@ img.emoji {
 <link rel="alternate" type="application/json+oembed" href="https://digitalriver.staging.wpengine.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdigitalriver.staging.wpengine.com%2Fsolutions%2Fcommerce%2F" />
 <link rel="alternate" type="text/xml+oembed" href="https://digitalriver.staging.wpengine.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdigitalriver.staging.wpengine.com%2Fsolutions%2Fcommerce%2F&#038;format=xml" />
 <meta name="generator" content="WPML ver:3.6.3 stt:61,1,3,28;" />
+
         </head>
         <body>
                     <script src="//service.maxymiser.net/api/us/digitalriver.com/410ef6/mmapi.js"></script>
@@ -451,6 +455,7 @@ img.emoji {
                      }  
                      .header {
                         max-width: 100%;
+                        padding-bottom: 15px;
                      }
                 
                  @media only screen and (min-width : 992px) {
@@ -467,7 +472,7 @@ img.emoji {
                 
                   @media only screen and (min-width : 1200px) {
                      .header {
-                         max-width: 80%;
+                         max-width: 72%;
                      }
                 }
             </style>
@@ -477,23 +482,20 @@ img.emoji {
     <div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h2 class="eyebrow">
-					Software & Services
-				</h2>
-                
+				<h2 class="eyebrow">Software & Services</h2>
                 <h1 class="endToEnd"> End-to-End Lifecycle Monetization and Billing</h1>
-                
                 <h3>For growing your cloud business</h3>
-                
 			</div>
-</div>
+        </div>
+        <div class="row">
 			<div class="col-md-12">
 				<p class="header">
 					Digital River is a full-service ecommerce partner driven to grow your cloud business in a smart, sustainable way. Since 1994, we’ve helped many of the biggest brands in software and services navigate ecommerce complexities, empowering both direct-to-consumer and partner channel sales. We’re the only cloud-based vendor with an end-to-end ecommerce solution capable of supporting subscriptions, Commerce of Things, <a href="https://www.digitalriver.com/solutions/commerce/smartchannel/">channel partner management,</a> and both <a href="https://www.digitalriver.com/solutions/commerce/physical-and-digital-fulfillment-value-brief/">digital and physical fulfillment.</a>
 				</p>
 			</div>
-		</div>
-	</div>
+        </div>
+    </div>
+</div>
 
 <div class="slide bg-lightGray text-center">
     <div class="container">
@@ -536,6 +538,8 @@ img.emoji {
     .world-class .client-logo-wrapper.active {
         padding: 0;
         text-align: center;
+        
+        
     }
 
     .world-class .client-logo-wrapper.active::after {
@@ -544,10 +548,11 @@ img.emoji {
         height: 0; 
         border-left: 40px solid transparent;
         border-right: 40px solid transparent;
-        border-bottom: 40px solid #a8c628;
+        border-bottom: 50px solid #a8c628;
+        filter: grayscale(0%);
     }
     
-    .lifecycle {
+    .whyWork {
         margin-left: 30px;
     }
     
@@ -586,22 +591,22 @@ img.emoji {
         <div class="slide">
             <div class="row client-logo">
                <div class="client-logo-wrapper" data-client="code42">
-                    <img class="img-responsive pull-left client-logo code42" src="http://placehold.it/250x75">
+                    <img src="images/logos/Code42.svg" width="250px" height="75px" class="img-responsive pull-left client-logo code42">
                </div>
                <div class="client-logo-wrapper" data-client="avast">
-                    <img class="img-responsive pull-left client-logo avast" src="http://placehold.it/250x75">
+                    <img class="img-responsive pull-left client-logo avast" src="images/logos/avast_color.svg" width="250" height="75">
                </div>
                <div class="client-logo-wrapper active" data-client="adobe">
-                    <img class="img-responsive pull-left client-logo adobe" src="http://placehold.it/250x75">
+                    <img class="img-responsive pull-left client-logo adobe" src="images/logos/Asset%201.svg" width="250px" height="75px">
                </div>
                <div class="client-logo-wrapper" data-client="kapersky">
-                    <img class="img-responsive pull-left client-logo kapersky" src="http://placehold.it/250x75">
+                    <img class="img-responsive pull-left client-logo kapersky" src="images/logos/kaspersky_color.svg" width="250px" height="75px">
                </div>
                <div class="client-logo-wrapper" data-client="intel">
-                    <img class="img-responsive pull-left client-logo intel" src="http://placehold.it/250x75">
+                    <img class="img-responsive pull-left client-logo intel" src="images/logos/intel_color.svg" width="100px" height="80px">
                </div>
                <div class="client-logo-wrapper" data-client="autoDesk">
-                    <img class="img-responsive pull-left client-logo autoDesk" src="http://placehold.it/250x75">
+                    <img class="img-responsive pull-left client-logo autoDesk" src="images/logos/autodesk_color.svg" width="250px" height="75px">
                </div>
             </div>
         </div>
@@ -615,32 +620,298 @@ img.emoji {
     <div class="h3 med client-copy" data-client="intel">Powering McAfee’s SMB subscriptions and channel partner sales.</div>
     <div class="h3 med client-copy" data-client="autoDesk">Powering localized subscription sales for Autodesk in APAC and EMEA.</div>
 </div>
+            
+<!--Custom CSS for Powering World Class Brands-->
+            <style>
+                .avast {
+                    margin-top: 4px;
+                }
+                .adobe {
+                    margin-top: 4px;
+                }
+                .kapersky {
+                    margin-top: 6px;
+                }
+                .autoDesk {
+                    margin-top: 7px;
+                }
+                .intel {
+                    padding-left: 10px;
+                }
+                .client-logo {
+                   filter: grayscale(100%) ;
+                }
+                .client-logo:hover {
+                   filter: grayscale(0%); 
+                }
+                .client-logo-wrapper.active .client-logo {
+                    filter: grayscale(0%);
+                }
+             
+         
+            @media screen/0, screen/9 {
+                 .code42 {
+                    margin-top: 7px;
+                }
+            }   
 
+                
+         @media (min-width: 480px) {
+                .avast {
+                    margin-top: 6px;
+                }
+                 .adobe {
+                     margin-top: 6px;
+                 }
+
+                .kapersky {
+                    margin-top: 10px;
+                }
+                .autoDesk {
+                    margin-top: 12px;
+                }
+            }
+                
+            @media (min-width: 768px) {
+                .avast {
+                    margin-top: 8px;
+                }
+                .adobe {
+                     margin-top: 10px;
+                 }
+                .kapersky {
+                    margin-top: 14px;
+                }
+                .autoDesk {
+                    margin-top: 17px;
+                }
+                
+            }
+                
+            @media (min-width: 768px) {
+                .avast {
+                    margin-top: 10px;
+                }
+                .kapersky {
+                    margin-top: 18px;
+                }
+                .autoDesk {
+                    margin-top: 25px;
+                }
+            }
+            </style>
+            
+<!--End Powering World Class Brands CSS -->
+            
+            
 <div class="slide lifecycle">
-    <div class="container client-offerings">
-        <div class="eng h2 txt-blue text-center">Lifecycle Monetization &amp;Billing</div>
-        <div class="slide">
-
+    <div class="backgrounds">
+        <div class="container">
+            <div class="eng h2 txt-blue text-center">Lifecycle Monetization &amp;Billing</div>
+            <div class="slide text-center">
+                <div class="inner_cycle owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="acquireSlide">
+                            <div class="ac h4 txt-blue text-center">ACQUIRE AND <br>DELIGHT CUSTOMERS</div>
+                            <p class="inner-content ac">Combine our global ecommerce expertise and agile platform with one of two world-class marketing solutions for superior end-to-end experience management. Whether you choose our award-winning in-house marketing services or our integration with Adobe Experience Manager, Digital River helps you keep customers delighted throughout the lifecycle.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="optimizeSlide">
+                            <div class="ac h4 txt-blue text-center">OPTIMIZE CUSTOMER <br>CONVERSIONS</div>
+                                <p class="inner-content">Our extensive global payments and localization capabilities allow you to achieve optimal conversion rates. Our central payment gateway enables 41 payment methods, 108 display currencies and 46 transaction curencies. This localization of language, currencies and cultural nuance provides a tailored individual customer experience.</p>
+                        </div>
+                    `</div>
+                     <div class="item">
+                        <div class="retainSlide">
+                            <div class="ac h4 txt-blue text-center">REDUCE CHURN AND <br>MAXIMIZE YOUR SUBSCRIPTION<br> PROFITABILITY</div>
+                                <p class="inner-content ac">To increase retention, we offer an innovative toolset to drive down both voluntary and involuntary churn. With over 10 years of subscription billing experience, we are the industry's foremeost experts on reducing involuntary churn. We help many of the biggest subscription brands increase revenue by as much as 12%!</p>
+                        </div>
+                    `</div>
+                </div> 
+            <a href="https://www.digitalriver.com/solutions/commerce/subscription-revenue-optimization-value-brief/"><button class="btn btn-primary margin-top">Learn More</button></a>
+           </div>
         </div>
-    </div>
+    </div> 
+    <div class="showLifecycle">
+        <div class="item">
+         <div class="acquireSlide">
+             <br>
+             <div class="eng h2 txt-blue text-center">Lifecycle Monetization &amp;Billing</div>
+                <div class="contentContainer">
+                    <div class="ac h4 txt-blue text-center">ACQUIRE AND <br>DELIGHT CUSTOMERS</div>
+                        <p class="inner-content">Combine our global ecommerce expertise and agile platform with one of two world-class marketing solutions for superior end-to-end experience management. Whether you choose our award-winning in-house marketing services or our integration with Adobe Experience Manager, Digital River helps you keep customers delighted throughout the lifecycle.</p>
+                      <a href="https://www.digitalriver.com/solutions/commerce/subscription-revenue-optimization-value-brief/"><button class="btn btn-primary margin-top">Learn More</button></a>
+                </div>
+                <img src="images/circle_acquire.svg" class="circle" width="450" height="450"/>
+
+            </div>
+        </div>
+        <div class="item">
+             <div class="optimizeSlide">
+                 <br>
+                  <div class="eng h2 txt-blue text-center title">Lifecycle Monetization &amp;Billing</div>
+                    <div class="contentContainer">
+                    <div class="ac h4 txt-blue text-center">OPTIMIZE CUSTOMER <br>CONVERSIONS</div>
+                        <p class="inner-content">Our extensive global payments and localization capabilities allow you to achieve optimal conversion rates. Our central payment gateway enables 41 payment methods, 108 display currencies and 46 transaction curencies. This localization of language, currencies and cultural nuance provides a tailored individual customer experience.</p>
+                          <a href="https://www.digitalriver.com/solutions/commerce/subscription-revenue-optimization-value-brief/"><button class="btn btn-primary margin-top">Learn More</button></a>
+                    </div>
+                <img src="images/circle_convert.svg" class="circle" width="450" height="450"/>
+            </div>
+        </div>
+        <div class="item">
+             <div class="retainSlide">
+                 <br>
+                  <div class="eng h2 txt-blue text-center title">Lifecycle Monetization &amp;Billing</div>
+                    <div class="contentContainer">
+                    <div class="ac h4 txt-blue text-center">REDUCE CHURN AND <br>MAXIMIZE YOUR SUBSCRIPTION<br> PROFITABILITY</div>
+                        <p class="inner-content">To increase retention, we offer an innovative toolset to drive down both voluntary and involuntary churn. With over 10 years of subscription billing experience, we are the industry's foremeost experts on reducing involuntary churn. We help many of the biggest subscription brands increase revenue by as much as 12%!</p>
+                          <a href="https://www.digitalriver.com/solutions/commerce/subscription-revenue-optimization-value-brief/"><button class="btn btn-primary margin-top">Learn More</button></a>
+                    </div>
+                <img src="images/circle_retain.svg" class="circle" width="450" height="450"/>
+            </div>
+        </div>
+    </div>     
 </div>
-  
+            <!--onScroll script-->
+            <script>
+                window.onscroll = function() {myFunction()};
+
+                function myFunction() {
+                    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                        document.getElementByClass("item").className = "acquireSlide";
+                    } else {
+                        document.getElementsByClassName("item").className = "";
+                    }
+                }
+            </script>
+            <!--end onScroll-->
+            
+            <script>
+                  jQuery(document).ready(function($){
+
+             var $inner_cycle = $(".inner_cycle").owlCarousel({
+                 loop:true,
+                 margin:0,
+                 stagePadding: 0,
+                 nav:true,
+                 autoplay:false,
+                autoplayTimeout:2000,
+                navText: ['<i class="fa fa-2x fa-chevron-left" aria-hidden="true"></i>', '<i class="fa fa-2x fa-chevron-right" aria-hidden="true"></i>'],
+                 responsive:{
+                     0:{
+                         items:1
+                     },
+                     600:{
+                         items:1 
+                     },
+                 }
+            });
+        });
+            </script>
+
+
     <!--Custom CSS for the  Interactive lifecycle slide-->
         <style>
-            .client-offerings {
-                background-image: url(images/aquire_image.jpg);
-                background-repeat: no-repeat;
-                min-height: 500px;
-                width: auto;
+            .backgrounds {
+                background-color: #444;
+                margin: auto;
+            }
+            .showLifecycle {
+                display: none;
+            }
+ 
+            .inner-cycle {
+                position: relative;
+                min-height: 300px;
+            }
+           
+            .ac {
+                position: relative;
+               
+            }
+            .inner-content {
+                color: white;
+                text-align: center;
+            }
+          
+        
+            
+            @media (min-width: 480px) {
+               
+            }
+                
+            @media (min-width: 768px) {
+               
+            }
+            
+             @media (min-width: 992px) {
+                 .backgrounds {
+                     display: none;
+                 }
+                 .showLifecycle {
+                     display: block;
+                     padding-top: 15px;
+             /*max-height: 655px;*/
+                 }
+            
+                 .acquireSlide {
+                     background-image: url(images/aquire_image.jpg);
+                     background-repeat: no-repeat;
+                     background-size: cover;
+                     
+                 }
+                 .optimizeSlide {
+                     background-image: url(images/convert_image.jpg);
+                     background-repeat: no-repeat;
+                     background-size: cover;
+                 }
+                 .retainSlide {
+                     background-image: url(images/retain_image.jpg);
+                     background-repeat: no-repeat;
+                     background-size: cover;
+                 }
+                 .contentContainer {
+                     position: relative;
+                     max-width: 300px;
+                     top: 215px;
+                     left: 36%;
+                 }
+                 .contentContainer a {
+                     margin-left: 95px;
+                 }
+                 .circle {
+                     position: relative;
+                     bottom: 145px;
+                     left: 28%
+                 }
+                 .inner-content {
+                     margin-bottom: 15px;
+                 }
+                 .title {
+                     padding-top: 15px;
+                     padding-bottom: 0;
+                 }
+  
+                
+            }
+            
+              @media (min-width: 1200px) {
+                  .contentContainer {
+                      left: 38%;
+                  }
+                  .circle {
+                      left: 32%;
+                  }
             }
         </style>     
    <!--End CSS for the Interactive lifecycle slide-->  
             
 <div class="subStat back">
     <div class="innerStat">
-     <h4 class="txt-blue text-center">Increasing customer retention rates by 5% increases profits 25-95%!</h4>
+     <h4 class="txt-blue text-center">Increasing customer retention rates <br>by 5% increases profits 25-95%!</h4>
         <div class="h3 eng percent">How much subscription revenue could you gain by reducing churn?</div>
-        <a href="https://www.digitalriver.com/solutions/commerce/subscription-revenue-optimization-value-brief/"><button class="btn-secondary margin-top calculate">Calculate Your Potential</button></a>
+        <a href="https://www.digitalriver.com/solutions/commerce/subscription-revenue-optimization-value-brief/"><button class="btn btn-secondary margin-top calculate">Calculate Your Potential</button></a>
     </div>  
 </div> 
 <!--Custom CSS for substat slide-->
@@ -668,48 +939,53 @@ img.emoji {
             }
             .calculate {
                 margin-top: 15px;
-                width: 175px;
+                
             }
            
         </style>  
 <!--End CSS for substat slide-->
-            
     <script>
-        var slideIndex = 1;
-            showDivs(slideIndex);
+        jQuery(document).ready(function($){
 
-            function plusDivs(n) {
-                showDivs(slideIndex += n);
-            }
+             var $quote_wrapper = $(".quote_wrapper").owlCarousel({
+                 loop:true,
+                 margin:0,
+                 stagePadding: 0,
+                 dots:false,
+                 nav:true,
+                 autoplay:true,
+                autoplayTimeout:2000,
+                 navText: ['<i class="fa fa-2x fa-chevron-left" aria-hidden="true"></i>', '<i class="fa fa-2x fa-chevron-right" aria-hidden="true"></i>'],
+                 responsive:{
+                     0:{
+                         items:1
+                     },
+                     600:{
+                         items:1
+                     },
+                 }
+            });
 
-            function showDivs(n) {
-                var i;
-                var x = document.getElementsByClassName("quote-wrapper");
-                if (n > x.length) {slideIndex = 1} 
-                if (n < 1) {slideIndex = x.length} ;
-                for (i = 0; i < x.length; i++) {
-                    x[i].style.display = "none"; 
-                }
-                x[slideIndex-1].style.display = "block"; 
-            }
+        });
     </script>
+            
 <div class="slide bg-green txt-white text-center">
-     <img src="images/resources-arrow-left.svg" onclick="plusDivs(-1)" width="100" height="100" class="leftArrow"/>
-     <img src="images/resources-arrow-right.svg" onclick="plusDivs(+1)" width="100" height="100" class="rightArrow"/>
+ 
         <div class="container quotes">
             <div class="h2 eng">See What the Experts Are Saying</div>
                 <div class="row">
-                    <div class="col-sm-10 col-sm-offset-1"> 
-                        <div class="quote-wrapper">
-                            <div class="h3 light">“Digital River will be a strong fit for software firms looking to monetize cloud versions of 
-                    their enterprise and consumer software suites across global markets.”</div>
-                            <div class="h4">The Forrester Wave™: Subscription Billing Platforms, Q4 2015 (November 11, 2015)</div>
-                        </div>
-                    </div>
                     <div class="col-sm-10 col-sm-offset-1">
-                        <div class="quote-wrapper">
-                            <div class="h3 light">“A SaaS platform primarily to B2C businesses in industries such as software, gaming and media.”</div>
-                            <div class="h4">Critical Capabilities for Digital Commerce (April 28, 2015)</div>
+                        <div class="quote_wrapper"> 
+                            <div class="item">
+                                <div class="h3 light">“Digital River will be a strong fit for software firms looking to monetize cloud versions of their enterprise and consumer software suites across global markets.”
+                                </div><br>
+                                <div class="h4">The Forrester Wave™: Subscription Billing Platforms, Q4 2015 (November 11, 2015)</div>
+                            </div>
+
+                            <div class="item">
+                                <div class="h3 light">“A SaaS platform primarily to B2C businesses in industries such as software, gaming and media.”</div><br>
+                                <div class="h4">Critical Capabilities for Digital Commerce (April 28, 2015)</div>
+                            </div>
                         </div>
                     </div>
                 </div>  
@@ -718,96 +994,51 @@ img.emoji {
 
     <!--Custom CSS for the slider-->
      <style>
-         .quotes {
-             min-height: 440px;
-         }
+         .owl-nav .fa-chevron-right {
+            right: 0;
+            position: absolute;
+            top: 95%;
+            
+        }
+          .owl-nav .fa-chevron-left {
+            left: 0;
+            position: absolute;
+            top: 95%;
+        }
          
-         .leftArrow {
-             float: left;
-             margin-top: 60px;
-         }
-         .rightArrow {
-             float: right;
-             margin-top: 60px;
-         }
-
+         
     @media (min-width: 480px) {
-            .quotes {
-                min-height: 300px;
-            } 
+        .owl-nav .fa-chevron-right {
+            right: 0;
+            position: absolute;
+            top: 90%;
+        }
+        .owl-nav .fa-chevron-left {
+            left: 0;
+            position: absolute;
+            top: 90%;
+        }
     }
          
-    @media(min-width: 768px) {
-            .quotes {
-                min-height: 260px;
-            }
-            .leftArrow {
-                 margin-top: 60px;
-             }
-             .rightArrow {
-                 margin-top: 60px;
-             }
-            .quote-wrapper {
-                    margin-top: -72px;
-                }
-    }
-    @media screen/0 (min-width: 768px) {
-             .quote-wrapper {
-                    margin-top: -72px;
-                }
-    }
-         
-         
-   @media(min-width: 894px) {
-            .quote-wrapper {
-                margin-top: 0px;
-            }
-    }
-         
-    @media(min-width: 992px) {
-            .quotes {
-                 min-height: 220px;
-             }
-            .quote-wrapper {
-                margin-top: -72px;
-            }
-             .leftArrow {
-                 float: left;
-                 margin-top: 60px;
-             }
-             .rightArrow {
-                 float: right;
-                 margin-top: 60px;
-             }
-    }
-   @media(min-width: 1100px) {
-            .quote-wrapper {
-                margin-top: -10px;
-            }
-    }
-         
-    @media(min-width: 1200px) {
-            .quote-wrapper {
-                margin-top: -85px;
-            }
-    }
-    @media(min-width: 1270px) {
-            .quote-wrapper {
-                margin-top: -3px;
-            }
-    }
-    @media(min-width: 1400px) {
-            .quote-wrapper {
-                margin-top: -10px;
-            }
+    @media (min-width: 768px) {
+        .owl-nav .fa-chevron-right {
+            right: -10%;
+            position: absolute;
+            top: 40%;
+        }
+        .owl-nav .fa-chevron-left {
+            left: -10%;
+            position: absolute;
+            top: 40%;
+        }
     }
     </style>
             
    <!--End custom CSS for the slider-->
             
             
-<div class="slide lifecycle">
-    <div class="eng text-left h2 txt-blue lifecycle">Why Work With Digital River</div>
+<div class="slide whyWork">
+    <div class="eng text-left h2 txt-blue whyWork">Why Work With Digital River</div>
     <div class="container">
         <div class="row slide">
             <div class="col-md-2">
@@ -841,7 +1072,7 @@ img.emoji {
                         <img class="img-responsive pull-left client-logo" src="images/experience_innovation_icon.svg" width="150" height="150">
                     </div>
                     <div class="col-md-8 globe">
-                        <div class="h3 med name">Experience & Innovation</div>
+                        <div class="h3 med name">Experience &amp; Innovation</div>
                         <p class="light h4">We’ve spent over 10 years on subscription technologies and were the first to identify Intelligent Transaction Routing.</p>
                     </div>
                 </div>
@@ -935,65 +1166,28 @@ img.emoji {
             } 
             .client-logo {
                 margin-right: 20px;
-                margin-bottom: 15px;
+                margin-bottom: 13px;
             }
             .globe {
                 margin-top: 35px;
             }
       
         }
-   
+           
+    @media (min-width: 992px) {
+        .client-logo {
+            margin-right: 0;
+            margin-bottom: 10px;
+           }
+           
+    @media (min-width: 1200px) {
+         .client-logo {
+            margin-bottom: 6px;
+           }
+       
+           }
        </style>     
 <!--End lifecycle CSS-->
-            
-<script>
-
-
-
-jQuery(document).ready(function($){
-
-   //  var $quote_wrapper = $(".logo-slider").owlCarousel({
-   //      loop:true,
-   //      margin:0,
-   //      stagePadding: 0,
-   //      dots:false,
-   //      nav:false,
-   //      autoplay:true,
-   //      autoplayTimeout:2000,
-   //    //  navText: ['<i class="fa fa-2x fa-chevron-left" aria-hidden="true"></i>', '<i class="fa fa-2x fa-chevron-right" aria-hidden="true"></i>'],
-   //      responsive:{
-   //          0:{
-   //              items:1
-   //          },
-   //          600:{
-   //              items:1
-   //          },
-   //      }
-   // });
-
-});
-
-
-</script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1026,7 +1220,8 @@ jQuery(document).ready(function($){
             a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
         })();
         </script>
-		<footer id="global_footer" class="bg-lightGray"><div class="container"><div class="col-sm-4 col-xxs-6 menu-section"><div class="link-section"><div class="head menu-expand h2"><i style="display:none;" class="fa fa-caret-down"></i><i class="fa fa-caret-right"></i> <span class="eng">Who We Are</span></div><div class="menu-wrapper sub-menu"><div class="menu-who-we-are-container"><ul id="menu-who-we-are" class="menu"><li id="menu-item-8772" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8772"><a href="https://digitalriver.staging.wpengine.com/company/newsroom/">Newsroom</a></li>
+		<footer id="global_footer" class="bg-lightGray"><script src="jquery.min.js"></script>
+<script src="owlcarousel/owl.carousel.min.js"></script><div class="container"><div class="col-sm-4 col-xxs-6 menu-section"><div class="link-section"><div class="head menu-expand h2"><i style="display:none;" class="fa fa-caret-down"></i><i class="fa fa-caret-right"></i> <span class="eng">Who We Are</span></div><div class="menu-wrapper sub-menu"><div class="menu-who-we-are-container"><ul id="menu-who-we-are" class="menu"><li id="menu-item-8772" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8772"><a href="https://digitalriver.staging.wpengine.com/company/newsroom/">Newsroom</a></li>
 <li id="menu-item-10530" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10530"><a href="https://digitalriver.staging.wpengine.com/company/corporate-policies/">Privacy Policy</a></li>
 <li id="menu-item-10531" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10531"><a href="https://digitalriver.staging.wpengine.com/company/corporate-policies/">Corporate Policies</a></li>
 <li id="menu-item-12025" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12025"><a href="https://digitalriver.staging.wpengine.com/company/careers/">Careers</a></li>
@@ -1175,3 +1370,5 @@ var icl_vars = {"current_language":"en","icl_home":"https:\/\/digitalriver.stagi
 /* ]]> */
 </script>
 <script type='text/javascript' src='https://digitalriver.staging.wpengine.com/wp-content/plugins/sitepress-multilingual-cms/res/js/sitepress.js?ver=4.7.3'></script>
+<script src="jquery.min.js"></script>
+<script src="owlcarousel/owl.carousel.min.js"></script>
